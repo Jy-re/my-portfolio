@@ -71,6 +71,10 @@ p{
     width: 35px;
 }
 
+.github-container{
+    margin-block: 50px;
+}
+
 .github-profile{
     color: #9AD0C3;
     background-color: transparent;
@@ -92,6 +96,14 @@ p{
     display: flex;
     flex-direction: row;
     margin-top: 150px;
+
+}
+
+.my-projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .project-container{
@@ -173,6 +185,57 @@ hr{
         height: 10px;
         width: auto;
     }
+
+    hr{
+        display: none;
+    }
+
+    .github-profile{
+        padding-inline: 20px;
+    }
+
+    .project-container{
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .project-sect{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .project-img{
+        margin-right: 0;
+    }
+
+    .p-header{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rdrct{
+        height: 30px;
+        width: auto;
+    }
+
+    .rdrct-img{
+        height: 30px;
+        width: auto;
+    }
+
+    .project-h{
+        font-size: 20px;
+    }
+
+    .project-p{
+        font-size: 15px;
+        text-wrap: wrap;
+        text-align: center;
+    }
 }
 
 
@@ -226,6 +289,8 @@ hr{
 
     .techstack{
         height: 20px;
+
+
     }
 
 }
