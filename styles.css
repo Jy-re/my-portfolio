@@ -205,6 +205,10 @@ p{
     text-align: center;
 }
 
+.rdrct2:hover{
+    background-color: #304A5F;
+}
+
 @media only screen and (max-width: 660px){
 
     .main-images{
