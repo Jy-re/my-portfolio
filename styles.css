@@ -75,6 +75,8 @@ p{
     margin-block: 50px;
 }
 
+
+
 .github-profile{
     color: #9AD0C3;
     background-color: transparent;
@@ -91,11 +93,20 @@ p{
     color: #304A5F;
 }
 
+.margin-p{
+    display: none;
+}
+
+.projects-label{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
 
 .project-sect{
     display: flex;
     flex-direction: row;
-    margin-top: 150px;
+    margin-top: 30px;
 
 }
 
@@ -198,6 +209,12 @@ hr{
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        margin-inline: 20px;
+    }
+
+    .projects-label{
+        margin-bottom: 0;
+        font-size: 40px;
     }
 
     .project-sect{
